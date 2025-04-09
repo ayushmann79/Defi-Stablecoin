@@ -44,16 +44,11 @@ This project is meant to be a stablecoin where users can deposit WETH and WBTC i
 ## Quickstart
 
 ```
-git clone https://github.com/Cyfrin/foundry-defi-stablecoin-cu
-cd foundry-defi-stablecoin-cu
+git clone https://github.com/ayushmann79/Foundry-DeFi-Stablecoin
+cd Foundry-Defi-Stablecoin
 forge build
 ```
 
-### Optional Gitpod
-
-If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/PatrickAlphaC/foundry-smart-contract-lottery-cu)
 
 # Updates
 
@@ -99,6 +94,9 @@ forge test
 ```
 forge coverage
 ```
+
+![image](https://github.com/user-attachments/assets/92eec722-bfe4-4955-ad10-d3b4aae840c2)
+
 
 and for coverage based testing:
 
@@ -184,22 +182,9 @@ https://github.com/smartcontractkit/chainlink-brownie-contracts
 
 ## Let's talk about what "Official" means
 The "official" release process is that chainlink deploys it's packages to [npm](https://www.npmjs.com/package/@chainlink/contracts). So technically, even downloading directly from `smartcontractkit/chainlink` is wrong, because it could be using unreleased code.
+ 
 
-So, then you have two options:
-
-1. Download from NPM and have your codebase have dependencies foreign to foundry
-2. Download from the chainlink-brownie-contracts repo which already downloads from npm and then packages it nicely for you to use in foundry.
-## Summary
-1. That is an official repo maintained by the same org
-2. It downloads from the official release cycle `chainlink/contracts` use (npm) and packages it nicely for digestion from foundry.
-
+ 
 # Thank you!
 
-If you appreciated this, feel free to follow me or donate!
-
-ETH/zkSync/Arbitrum/Optimism Address(`cyfrin1.eth`): 0x3846c3A30E62075Fa916216b35EF04B8F53931f6
-
-[![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
-[![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
-[![Patrick Collins Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrickalphac/)
-[![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
+ 
