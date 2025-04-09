@@ -87,10 +87,9 @@ In this repo we cover #1 and Fuzzing.
 
 ```
 forge test
-![image](https://github.com/user-attachments/assets/d13429d0-daca-4bba-9d05-870fa840fae2)
-
-
 ```
+
+![image](https://github.com/user-attachments/assets/d13429d0-daca-4bba-9d05-870fa840fae2)
 
 ### Test Coverage
 
