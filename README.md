@@ -1,36 +1,11 @@
 # Foundry DeFi Stablecoin
 
-This is a section of the Cyfrin Foundry Solidity Course.
-
-[DSCEngine Example](https://sepolia.etherscan.io/address/0x091ea0838ebd5b7dda2f2a641b068d6d59639b98#code)
-[Decentralized Stablecoin Example](https://sepolia.etherscan.io/address/0xf30021646269007b0bdc0763fd736c6380602f2f#code)
+[DSCEngine Example](https://sepolia.etherscan.io/address/0x.........#code)
+[Decentralized Stablecoin Example](https://sepolia.etherscan.io/address/0xf..........#code)
 
 # About
 
 This project is meant to be a stablecoin where users can deposit WETH and WBTC in exchange for a token that will be pegged to the USD.
-
-- [Foundry DeFi Stablecoin](#foundry-defi-stablecoin)
-- [About](#about)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-    - [Optional Gitpod](#optional-gitpod)
-- [Updates](#updates)
-- [Usage](#usage)
-  - [Start a local node](#start-a-local-node)
-  - [Deploy](#deploy)
-  - [Deploy - Other Network](#deploy---other-network)
-  - [Testing](#testing)
-    - [Test Coverage](#test-coverage)
-- [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
-  - [Scripts](#scripts)
-  - [Estimate gas](#estimate-gas)
-- [Formatting](#formatting)
-- [Slither](#slither)
-- [Additional Info:](#additional-info)
-  - [Let's talk about what "Official" means](#lets-talk-about-what-official-means)
-  - [Summary](#summary)
-- [Thank you!](#thank-you)
 
 # Getting Started
 
@@ -48,11 +23,6 @@ git clone https://github.com/ayushmann79/Foundry-DeFi-Stablecoin
 cd Foundry-Defi-Stablecoin
 forge build
 ```
-
-
-# Updates
-
-- The latest version of openzeppelin-contracts has changes in the ERC20Mock file. To follow along with the course, you need to install version 4.8.3 which can be done by `forge install openzeppelin/openzeppelin-contracts@v4.8.3 --no-commit` instead of `forge install openzeppelin/openzeppelin-contracts --no-commit`
 
 # Usage
 
@@ -88,8 +58,6 @@ In this repo we cover #1 and Fuzzing.
 ```
 forge test
 ```
-
-![image](https://github.com/user-attachments/assets/d13429d0-daca-4bba-9d05-870fa840fae2)
 
 ### Test Coverage
 
@@ -175,15 +143,6 @@ forge fmt
 ```
 slither :; slither . --config-file slither.config.json
 ```
-
-# Additional Info:
-Some users were having a confusion that whether Chainlink-brownie-contracts is an official Chainlink repository or not. Here is the info.
-Chainlink-brownie-contracts is an official repo. The repository is owned and maintained by the chainlink team for this very purpose, and gets releases from the proper chainlink release process. You can see it's still the `smartcontractkit` org as well.
-
-https://github.com/smartcontractkit/chainlink-brownie-contracts
-
-## Let's talk about what "Official" means
-The "official" release process is that chainlink deploys it's packages to [npm](https://www.npmjs.com/package/@chainlink/contracts). So technically, even downloading directly from `smartcontractkit/chainlink` is wrong, because it could be using unreleased code.
  
 
  
